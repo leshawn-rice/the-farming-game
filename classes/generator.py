@@ -11,6 +11,8 @@ class Generator(object):
         generates a string of length "length" comprised
         of random letters and numbers, and returns the value
         '''
+        if not length or type(length) != int:
+            return None
         is_generated = False
         id = None
         while not is_generated:
