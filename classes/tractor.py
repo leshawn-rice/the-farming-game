@@ -1,6 +1,5 @@
-from config import ID_LENGTH
 from classes.generator import Generator
-from config import ID_LENGTH
+from src.config import ID_LENGTH
 
 
 class Tractor(object):
